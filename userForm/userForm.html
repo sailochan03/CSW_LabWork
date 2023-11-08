@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="userForm.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form>
+            <h1 style="text-align: center;">Registration form</h1>
+            <div class="form-group">
+
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="First name" required>
+                
+            </div>
+
+            <div class="form-group">
+
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Last name" required>
+
+            </div>
+            <div class="form-group">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Set a password" required>
+            </div>
+            <div class="form-group">
+                <label for="color">Favorite color:</label>
+                <select name="color" id="color" required>
+                    <option value="">Select color</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="pink">Pink</option>
+                    <option value="none">None</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
