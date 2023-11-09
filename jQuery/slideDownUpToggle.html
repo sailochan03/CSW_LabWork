@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $("#flip1").click(function () {
+                $("#panel1").slideDown("slow");
+            });
+
+            $("#flip2").click(function () {
+                $("#panel2").slideUp("slow");
+            });
+
+            $("#flip3").click(function () {
+                $("#panel3").slideToggle("slow");
+            });
+            
+        });
+    </script>
+    <style>
+        div{
+            padding: 10px;
+            text-align: left;
+            background-color: dodgerblue;
+            border: solid 5px rgb(86, 184, 57);
+        }
+
+        #panel1 {
+            padding: 60px;
+            display: none;
+        }
+        #panel2{
+            padding:60px;
+        }
+        #panel3{
+            padding: 60px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="flip1">Slide down</div>
+    <div id="panel1">Merry Christmas !!</div>
+
+    <div id="flip2">Slide Up</div>
+    <div id="panel2">Happy New Year !!</div>
+
+    <div id="flip3">Slide Toggle</div>
+    <div id="panel3">Happy Diwali !!</div>
+
+
+</body>
+
+</html>
