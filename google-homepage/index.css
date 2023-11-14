@@ -1,0 +1,28 @@
+.all{
+    margin-top: 20vh ;
+}
+
+input {
+    outline: none;
+    border: none;
+    height: 6vh;
+    width: 100%;
+    cursor: text;
+    padding: 1%;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #f2f2f2;
+    width: 40%;
+    border-radius: 30px;
+}
+
+.input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+#voice-mic{
+    position: relative;
+    margin-top: 8px;
+}
